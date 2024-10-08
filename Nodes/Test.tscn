@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://6yau6skjtehg"]
+
+[ext_resource type="Texture2D" uid="uid://dpr25po1tq30b" path="res://icon.svg" id="1_rtwev"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n3tif"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rtwev")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_n3tif")
